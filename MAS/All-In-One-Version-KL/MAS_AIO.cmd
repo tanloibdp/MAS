@@ -464,7 +464,7 @@ echo:             [1] HWID                - Windows
 if defined _ohookgo (
 call :dk_color3 %_White% "             [2] " %_Green% "Ohook" %_White% "               - Office"
 ) else (
-echo:             [2] Kich hoat Office     - Office
+echo:             [2] Ohook               - Office
 )
 if defined _tsforgego (
 call :dk_color3 %_White% "             [3] " %_Green% "TSforge" %_White% "             - Windows / Office / ESU"
